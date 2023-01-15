@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/todo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Add your To Do List here</h1>
+        <div class="in">
+            <input type="text" name="add" id="list-item" placeholder="Enter your task">
+            <button id="add" onclick="addinglist();">Add</button>
+        </div>
+        <div>
+            <h3>List Items</h3>
+        </div>
+    </header>
+    <main>
+        <div id="box">
+        </div>
+        <div id="editbox">
+            <input type="text" id="edit-txt">
+            <div class="edit-btn">
+                <button class="submit" onclick="edit();" style="background-color: green;">Submit</button>
+                <button onclick="cancle();" style="background-color: red;">Cancel</button>
+            </div>
+        </div>
+    </main>
+    <script src="/js/todo.js"></script>
+</body>
+</html>

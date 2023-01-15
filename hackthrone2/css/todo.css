@@ -1,0 +1,111 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+header {
+    background-color: skyblue;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+header h1 {
+    text-align: center;
+    margin: auto auto;
+}
+.in {
+    display: flex;
+    justify-content: center;
+    margin: 2vw auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#list-item {
+    width: 38vw;
+    height: 2vw;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+#add {
+    border-radius: 0.5vw;
+    height: 3.4vw;
+    width: 10vw;
+    text-align: center;
+}
+
+#box {
+    width: 50vw;
+}
+
+.item {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5vw 0.5vw 0.5vw 1vw;
+    border: 1px solid black;
+    border-radius: 1vw;
+    margin: 0.5vw auto;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+button {
+    padding: 0.2vw 0.5vw;
+    cursor: pointer;
+}
+
+.contant {
+    width: 80%;
+}
+
+#editbox {
+    padding: 2vw auto;
+    display: none;
+    width: 50%;
+    position: absolute;
+    top: 36%;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 1vw;
+}
+
+#edit-txt {
+    width: 80%;
+    padding: 1vw;
+    margin: 3vw 8%;
+    border-radius: 1vw;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.edit-btn {
+    display: flex;
+    margin: 2vw auto;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.edit-btn button {
+    width: 35%;
+    padding: 1vw;
+    font-size: 120%;
+    border-radius: 1vw;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}
